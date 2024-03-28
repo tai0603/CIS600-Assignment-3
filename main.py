@@ -4,11 +4,10 @@ import time
 
 mqtt_host = "mqtt3.thingspeak.com"
 mqtt_port = 1883
-mqtt_client_id = "KB00AjA4KQgECzMJLRo5AQk"
-mqtt_user = "KB00AjA4KQgECzMJLRo5AQk"
-mqtt_pass = "N7Ms3i2Vrb4PWYYWvo1oa9Og"
-channel_id = "2450349"
-write_api_key = "88QSP52WMHP69KKH"
+mqtt_client_id = "YOUR_CLIENT_ID"
+mqtt_user = "YOUR_USER_NAME"
+mqtt_pass = "YOUR_PASSWORD"
+channel_id = "YOUR_CHANNEL_ID"
 
 def generate_sensor_data():
 	temperature = random.uniform(-50, 50)
